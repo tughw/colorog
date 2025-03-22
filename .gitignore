@@ -1,0 +1,6 @@
+.venv
+.pypirc
+deploy.sh
+build
+dist
+*.egg-info
