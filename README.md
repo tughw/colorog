@@ -6,7 +6,7 @@
 [![Licence](https://img.shields.io/pypi/l/colorog)](LICENSE.txt)
 [![Code style: Black](https://img.shields.io/badge/code%20style-Black-000000.svg)](https://github.com/psf/black)
 
-![colors.png](colors.png)
+![Demo](https://raw.githubusercontent.com/tughw/colorog/main/colors.png)
 
 ## Installation
 
