@@ -44,7 +44,7 @@ def get_frame_str():
 
     try:
         name = f_globals["__name__"]
-        f_name = get_checked('name')
+        f_name = get_checked("name")
     except KeyError:
         name = None
 
@@ -97,8 +97,9 @@ def log_error(message: str):
 def log_critical(message: str):
     _log(message, "CRITICAL", "light_red")
 
+
 if __name__ == "__main__":
-    print('')
+    print("")
     log_trace("This is trace")
     log_debug("This is debug")
     log_info("This is info")
@@ -106,4 +107,4 @@ if __name__ == "__main__":
     log_warning("This is warning")
     log_error("This is error")
     log_critical("This is critical")
-    print('')
+    print("")

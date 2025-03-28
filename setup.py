@@ -2,9 +2,10 @@ from setuptools import setup, find_packages
 
 setup(
     name="colorog",
-    version="1.0.0",
+    version="1.0.1",
     author="Alex Holland",
     author_email="<alexh9392@hotmail.com>",
+    url="https://github.com/tughw/colorog",
     description="Make Python output not boring!",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
