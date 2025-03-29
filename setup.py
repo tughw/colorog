@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="colorog",
-    version="1.0.1",
+    version="1.0.2",
     author="Alex Holland",
     author_email="<alexh9392@hotmail.com>",
     url="https://github.com/tughw/colorog",

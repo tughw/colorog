@@ -1,6 +1,6 @@
 from colorama import just_fix_windows_console
 from termcolor import colored, cprint
-from affixr import get_checked
+from affixr import checked
 from datetime import datetime
 from sys import exc_info
 import sys
@@ -44,7 +44,7 @@ def get_frame_str():
 
     try:
         name = f_globals["__name__"]
-        f_name = get_checked("name")
+        f_name = checked(co_name, 255)
     except KeyError:
         name = None
 
